@@ -11,7 +11,7 @@
     <script>
       window.onload = () => {
         const clickCountDisplay = document.getElementById("click-count");
-        let clickCount = parseInt(localStorage.getItem("count") || "0", 10);
+        let clickCount = parseInt(localStorage.getItem("count") || "0");
         clickCountDisplay.textContent = clickCount;
 
         const img = document.createElement("img");
